@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.App-section {
+  margin-top: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +40,19 @@
     transform: rotate(360deg);
   }
 }
+
+.user-list,
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item,
+.product-item {
+  background: #3a3f47;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  color: #fff;
+}
+
